@@ -1,0 +1,12 @@
+﻿@model DesafioEstagio1.Models.InverterStringModel
+
+<div class="text-center">
+    <form method="post">
+        <div class="form-group">
+            <label for="txt" asp-for="txt">Informe uma palavra:</label>
+            <input class="form-control" required asp-for="txt" />
+        </div>
+        <button class="btn btn-primary w-100 mt-2">Inverter</button>
+        <p class="mt-4"> @Model.resposta</p>
+    </form>
+</div>
